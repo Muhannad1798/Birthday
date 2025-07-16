@@ -1,0 +1,54 @@
+.guestbook {
+  background: #fff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.guestbook h2 {
+  color: #e91e63;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+}
+
+button {
+  background: #ff4081;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.entries {
+  margin-top: 2rem;
+}
+
+.entry {
+  background: #f8f8f8;
+  border-left: 4px solid #ff4081;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  word-break: break-word;
+}

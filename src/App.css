@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  min-height: 100vh;
+  padding: 50px;
+  font-family: 'Comic Sans MS', cursive;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ff4081;
+}
+
+.countdown h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.countdown p {
+  font-size: 1.5rem;
+  background: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.emoji {
+  font-size: 3rem;
+  margin-top: 20px;
+  animation: pop 1s infinite alternate;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}

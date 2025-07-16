@@ -1,0 +1,48 @@
+.balloon-game {
+  position: relative;
+  height: 300px;
+  border: 2px dashed #ccc;
+  margin-top: 5vw;
+  overflow: hidden;
+  background: #f0f9ff;
+}
+
+.balloon {
+  position: absolute;
+  bottom: 0;
+  font-size: 6vw;
+  animation: floatUp 5s linear forwards;
+  cursor: pointer;
+  user-select: none;
+}
+
+@keyframes floatUp {
+  to {
+    transform: translateY(-110vh);
+    opacity: 0;
+  }
+}
+
+// Add to App.css
+.game-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  flex-wrap: wrap;
+}
+
+.game-menu li {
+  cursor: pointer;
+  background: #fff;
+  padding: 3vw 5vw;
+  border-radius: 10px;
+  font-size: 4vw;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s;
+}
+
+.game-menu li:hover {
+  background: #ffe0f0;
+}
