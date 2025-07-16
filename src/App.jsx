@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Confetti from 'react-confetti'
+import { Analytics } from '@vercel/analytics/next'
 import Guestbook from './Guestbook'
 import PopBalloons from './games/PopBalloons'
 import MemoryMatch from './games/MemoryMatch'
